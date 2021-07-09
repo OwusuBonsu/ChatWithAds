@@ -1,0 +1,34 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "@react-native-community/async-storage": "~1.11.0",
+    "expo": "~41.0.1",
+    "expo-ads-admob": "~10.0.4",
+    "expo-status-bar": "~1.0.4",
+    "firebase": "7.9.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-admob-native-ads": "^0.4.1",
+    "react-native-gifted-chat": "^0.16.3",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "jest-expo": "^42.0.1",
+    "react-test-renderer": "^16.11.0"
+  },
+  "private": true
+}
